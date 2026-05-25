@@ -143,6 +143,40 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section id="contacto" className="px-6 py-24 bg-white text-slate-950">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-4xl font-bold mb-4">Contacto</h2>
+
+          <p className="text-lg text-slate-700 leading-relaxed mb-8 max-w-3xl">
+            Si deseas conocer más sobre mis proyectos o ponerte en contacto conmigo,
+            puedes escribirme por correo electrónico o visitar mis perfiles profesionales.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <a
+              href="mailto:daniel.sandoval@uvg.edu.gt"
+              className="border border-slate-200 rounded-2xl p-6 hover:border-blue-500 hover:shadow-lg transition"
+            >
+              <h3 className="text-xl font-semibold mb-2">Correo</h3>
+              <p className="text-slate-600">sandovaluvg@gmail.com</p>
+            </a>
+
+            <a
+              href="https://github.com/K41S3RTK1"
+              target="_blank"
+              className="border border-slate-200 rounded-2xl p-6 hover:border-blue-500 hover:shadow-lg transition"
+            >
+              <h3 className="text-xl font-semibold mb-2">GitHub</h3>
+              <p className="text-slate-600">github.com/K41S3RTK1</p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer className="px-6 py-8 bg-slate-950 text-center text-slate-400 border-t border-slate-800">
+        <p>© 2026 Daniel Sandoval. Portafolio desarrollado con Next.js.</p>
+      </footer>
     </main>
   );
 }
