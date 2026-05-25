@@ -35,6 +35,25 @@ export default function Home() {
         </div>
 
       </section>
+      <section id="sobre-mi" className="px-6 py-24 bg-white text-slate-950">
+  <div className="max-w-5xl mx-auto">
+    <h2 className="text-4xl font-bold mb-6">Sobre mí</h2>
+
+    <p className="text-lg text-slate-700 leading-relaxed mb-6">
+      Soy Daniel Sandoval, estudiante interesado en el desarrollo web y en la
+      creación de soluciones digitales funcionales, ordenadas y fáciles de usar.
+      Durante el curso de Sistemas y Tecnologías Web he aprendido a trabajar con
+      herramientas modernas como HTML, CSS, JavaScript, Node.js, React, Next.js,
+      Git, GitHub y despliegues web.
+    </p>
+
+    <p className="text-lg text-slate-700 leading-relaxed">
+      Me interesa seguir aprendiendo sobre desarrollo frontend, backend,
+      bases de datos, diseño de interfaces y buenas prácticas para construir
+      proyectos más completos y profesionales.
+    </p>
+  </div>
+</section>
     </main>
   );
 }
