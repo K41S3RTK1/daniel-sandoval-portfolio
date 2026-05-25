@@ -36,24 +36,113 @@ export default function Home() {
 
       </section>
       <section id="sobre-mi" className="px-6 py-24 bg-white text-slate-950">
-  <div className="max-w-5xl mx-auto">
-    <h2 className="text-4xl font-bold mb-6">Sobre mí</h2>
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-4xl font-bold mb-6">Sobre mí</h2>
 
-    <p className="text-lg text-slate-700 leading-relaxed mb-6">
-      Soy Daniel Sandoval, estudiante interesado en el desarrollo web y en la
-      creación de soluciones digitales funcionales, ordenadas y fáciles de usar.
-      Durante el curso de Sistemas y Tecnologías Web he aprendido a trabajar con
-      herramientas modernas como HTML, CSS, JavaScript, Node.js, React, Next.js,
-      Git, GitHub y despliegues web.
-    </p>
+          <p className="text-lg text-slate-700 leading-relaxed mb-6">
+            Soy Daniel Sandoval, estudiante interesado en el desarrollo web y en la
+            creación de soluciones digitales funcionales, ordenadas y fáciles de usar.
+            Durante el curso de Sistemas y Tecnologías Web he aprendido a trabajar con
+            herramientas modernas como HTML, CSS, JavaScript, Node.js, React, Next.js,
+            Git, GitHub y despliegues web.
+          </p>
 
-    <p className="text-lg text-slate-700 leading-relaxed">
-      Me interesa seguir aprendiendo sobre desarrollo frontend, backend,
-      bases de datos, diseño de interfaces y buenas prácticas para construir
-      proyectos más completos y profesionales.
-    </p>
-  </div>
-</section>
+          <p className="text-lg text-slate-700 leading-relaxed">
+            Me interesa seguir aprendiendo sobre desarrollo frontend, backend,
+            bases de datos, diseño de interfaces y buenas prácticas para construir
+            proyectos más completos y profesionales.
+          </p>
+        </div>
+      </section>
+
+      <section id="proyectos" className="px-6 py-24 bg-slate-950 text-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold mb-4">Proyectos</h2>
+
+          <p className="text-slate-400 mb-10 max-w-3xl">
+            Recopilación de laboratorios y proyectos desarrollados durante el
+            curso de Sistemas y Tecnologías Web, utilizando tecnologías como
+            HTML, CSS, JavaScript, Node.js, React, Next.js, Docker, PostgreSQL y GitHub.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <article className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500 transition">
+              <div className="h-36 bg-slate-800 rounded-xl mb-5 flex items-center justify-center text-slate-500">
+                Captura del proyecto
+              </div>
+              <h3 className="text-2xl font-semibold mb-3">Laboratorio 6 - Node.js</h3>
+              <p className="text-slate-400 mb-4">
+                Laboratorio enfocado en la creación de un servidor con Node.js,
+                manejo de rutas y respuestas en formato JSON.
+              </p>
+              <p className="text-sm text-blue-300 mb-5">Node.js · JavaScript · GitHub</p>
+              <a href="https://github.com/K41S3RTK1" target="_blank" className="text-blue-400 hover:text-blue-300">
+                Ver repositorio
+              </a>
+            </article>
+
+            <article className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500 transition">
+              <div className="h-36 bg-slate-800 rounded-xl mb-5 flex items-center justify-center text-slate-500">
+                Captura del proyecto
+              </div>
+              <h3 className="text-2xl font-semibold mb-3">Laboratorio 7 - Express y React</h3>
+              <p className="text-slate-400 mb-4">
+                Proyecto práctico donde se trabajó con Express para el backend
+                y React con Vite para construir una interfaz funcional.
+              </p>
+              <p className="text-sm text-blue-300 mb-5">Express · React · Vite · JavaScript</p>
+              <a href="https://github.com/K41S3RTK1" target="_blank" className="text-blue-400 hover:text-blue-300">
+                Ver repositorio
+              </a>
+            </article>
+
+            <article className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500 transition">
+              <div className="h-36 bg-slate-800 rounded-xl mb-5 flex items-center justify-center text-slate-500">
+                Captura del proyecto
+              </div>
+              <h3 className="text-2xl font-semibold mb-3">Actividad de tienda online</h3>
+              <p className="text-slate-400 mb-4">
+                Desarrollo de una tienda online con catálogo de productos,
+                estructura visual responsive y publicación mediante GitHub Pages.
+              </p>
+              <p className="text-sm text-blue-300 mb-5">HTML · CSS · JavaScript · GitHub Pages</p>
+              <a href="https://github.com/K41S3RTK1" target="_blank" className="text-blue-400 hover:text-blue-300">
+                Ver repositorio
+              </a>
+            </article>
+
+            <article className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500 transition">
+              <div className="h-36 bg-slate-800 rounded-xl mb-5 flex items-center justify-center text-slate-500">
+                Captura del proyecto
+              </div>
+              <h3 className="text-2xl font-semibold mb-3">Proyecto 2 - Base de datos</h3>
+              <p className="text-slate-400 mb-4">
+                Sistema para una tienda de instrumentos musicales y equipo de audio,
+                conectado a PostgreSQL mediante Node.js y Docker.
+              </p>
+              <p className="text-sm text-blue-300 mb-5">PostgreSQL · Docker · Node.js · Express</p>
+              <a href="https://github.com/K41S3RTK1" target="_blank" className="text-blue-400 hover:text-blue-300">
+                Ver repositorio
+              </a>
+            </article>
+
+            <article className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500 transition">
+              <div className="h-36 bg-slate-800 rounded-xl mb-5 flex items-center justify-center text-slate-500">
+                Captura del proyecto
+              </div>
+              <h3 className="text-2xl font-semibold mb-3">Proyecto 3 - Backend y base de datos</h3>
+              <p className="text-slate-400 mb-4">
+                Proyecto enfocado en la integración de backend, base de datos,
+                consultas SQL, estructura de API y documentación del sistema.
+              </p>
+              <p className="text-sm text-blue-300 mb-5">SQL · Docker · Express · GitHub</p>
+              <a href="https://github.com/K41S3RTK1" target="_blank" className="text-blue-400 hover:text-blue-300">
+                Ver repositorio
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
