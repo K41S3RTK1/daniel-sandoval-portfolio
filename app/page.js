@@ -90,7 +90,7 @@ export default function Home() {
                 manejo de rutas y respuestas en formato JSON.
               </p>
               <p className="text-sm text-blue-300 mb-5">Node.js · JavaScript · GitHub</p>
-              <a href="https://github.com/K41S3RTK1" target="_blank" className="text-blue-400 hover:text-blue-300">
+              <a href="https://github.com/K41S3RTK1/laboratorio6-node" target="_blank" className="text-blue-400 hover:text-blue-300">
                 Ver repositorio
               </a>
             </article>
@@ -105,7 +105,7 @@ export default function Home() {
                 y React con Vite para construir una interfaz funcional.
               </p>
               <p className="text-sm text-blue-300 mb-5">Express · React · Vite · JavaScript</p>
-              <a href="https://github.com/K41S3RTK1" target="_blank" className="text-blue-400 hover:text-blue-300">
+              <a href="https://github.com/K41S3RTK1/laboratorio7-express-react" target="_blank" className="text-blue-400 hover:text-blue-300">
                 Ver repositorio
               </a>
             </article>
@@ -120,7 +120,7 @@ export default function Home() {
                 estructura visual responsive y publicación mediante GitHub Pages.
               </p>
               <p className="text-sm text-blue-300 mb-5">HTML · CSS · JavaScript · GitHub Pages</p>
-              <a href="https://github.com/K41S3RTK1" target="_blank" className="text-blue-400 hover:text-blue-300">
+              <a href="https://github.com/K41S3RTK1/minimarket-web" target="_blank" className="text-blue-400 hover:text-blue-300">
                 Ver repositorio
               </a>
             </article>
@@ -135,7 +135,7 @@ export default function Home() {
                 conectado a PostgreSQL mediante Node.js y Docker.
               </p>
               <p className="text-sm text-blue-300 mb-5">PostgreSQL · Docker · Node.js · Express</p>
-              <a href="https://github.com/K41S3RTK1" target="_blank" className="text-blue-400 hover:text-blue-300">
+              <a href="https://github.com/K41S3RTK1/proyecto2-tienda-musical" target="_blank" className="text-blue-400 hover:text-blue-300">
                 Ver repositorio
               </a>
             </article>
@@ -150,7 +150,7 @@ export default function Home() {
                 consultas SQL, estructura de API y documentación del sistema.
               </p>
               <p className="text-sm text-blue-300 mb-5">SQL · Docker · Express · GitHub</p>
-              <a href="https://github.com/K41S3RTK1" target="_blank" className="text-blue-400 hover:text-blue-300">
+              <a href="https://github.com/K41S3RTK1/proyecto2-tienda-musical/tree/proyecto-3" target="_blank" className="text-blue-400 hover:text-blue-300">
                 Ver repositorio
               </a>
             </article>
