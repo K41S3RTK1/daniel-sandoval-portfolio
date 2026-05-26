@@ -81,9 +81,11 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <article className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500 transition">
-              <div className="h-36 bg-slate-800 rounded-xl mb-5 flex items-center justify-center text-slate-500">
-                Captura del proyecto
-              </div>
+              <img
+                src="/projects/lab6.png"
+                alt="Captura del Laboratorio 6 de Node.js"
+                className="h-36 w-full object-cover rounded-xl mb-5 border border-slate-800"
+              />
               <h3 className="text-2xl font-semibold mb-3">Laboratorio 6 - Node.js</h3>
               <p className="text-slate-400 mb-4">
                 Laboratorio enfocado en la creación de un servidor con Node.js,
@@ -96,9 +98,11 @@ export default function Home() {
             </article>
 
             <article className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500 transition">
-              <div className="h-36 bg-slate-800 rounded-xl mb-5 flex items-center justify-center text-slate-500">
-                Captura del proyecto
-              </div>
+              <img
+                src="/projects/lab7.png"
+                alt="Captura del Laboratorio 7 de Express y React"
+                className="h-36 w-full object-cover rounded-xl mb-5 border border-slate-800"
+              />
               <h3 className="text-2xl font-semibold mb-3">Laboratorio 7 - Express y React</h3>
               <p className="text-slate-400 mb-4">
                 Proyecto práctico donde se trabajó con Express para el backend
@@ -111,9 +115,11 @@ export default function Home() {
             </article>
 
             <article className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500 transition">
-              <div className="h-36 bg-slate-800 rounded-xl mb-5 flex items-center justify-center text-slate-500">
-                Captura del proyecto
-              </div>
+              <img
+                src="/projects/minimarket.png"
+                alt="Captura de la actividad de tienda online"
+                className="h-36 w-full object-cover rounded-xl mb-5 border border-slate-800"
+              />
               <h3 className="text-2xl font-semibold mb-3">Actividad de tienda online</h3>
               <p className="text-slate-400 mb-4">
                 Desarrollo de una tienda online con catálogo de productos,
@@ -126,9 +132,11 @@ export default function Home() {
             </article>
 
             <article className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500 transition">
-              <div className="h-36 bg-slate-800 rounded-xl mb-5 flex items-center justify-center text-slate-500">
-                Captura del proyecto
-              </div>
+              <img
+                src="/projects/proyecto2.png"
+                alt="Captura del Proyecto 2 de base de datos"
+                className="h-36 w-full object-cover rounded-xl mb-5 border border-slate-800"
+              />
               <h3 className="text-2xl font-semibold mb-3">Proyecto 2 - Base de datos</h3>
               <p className="text-slate-400 mb-4">
                 Sistema para una tienda de instrumentos musicales y equipo de audio,
@@ -141,9 +149,11 @@ export default function Home() {
             </article>
 
             <article className="bg-slate-900 border border-slate-800 rounded-2xl p-6 hover:border-blue-500 transition">
-              <div className="h-36 bg-slate-800 rounded-xl mb-5 flex items-center justify-center text-slate-500">
-                Captura del proyecto
-              </div>
+              <img
+                src="/projects/proyecto3.png"
+                alt="Captura del Proyecto 3 de backend y base de datos"
+                className="h-36 w-full object-cover rounded-xl mb-5 border border-slate-800"
+              />
               <h3 className="text-2xl font-semibold mb-3">Proyecto 3 - Backend y base de datos</h3>
               <p className="text-slate-400 mb-4">
                 Proyecto enfocado en la integración de backend, base de datos,
