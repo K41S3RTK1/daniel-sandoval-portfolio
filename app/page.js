@@ -2,12 +2,12 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
       <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-950/90 backdrop-blur border-b border-slate-800">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="max-w-6xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between">
           <a href="#inicio" className="font-bold text-xl text-white">
             Daniel Sandoval
           </a>
 
-          <div className="hidden md:flex gap-6 text-sm text-slate-300">
+          <div className="flex flex-wrap justify-center gap-3 text-xs sm:text-sm text-slate-300 mt-3 sm:mt-0">
             <a href="#inicio" className="hover:text-blue-300 transition">Inicio</a>
             <a href="#sobre-mi" className="hover:text-blue-300 transition">Sobre mí</a>
             <a href="#proyectos" className="hover:text-blue-300 transition">Proyectos</a>
